@@ -1,2 +1,5 @@
-package TP2;public class SalaireTest {
+package TP2;
+
+public class SalaireTest {
+
 }
