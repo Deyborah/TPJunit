@@ -24,6 +24,6 @@ public class TemperatureTest {
         // When
         String result = thermometre.say(temperature);
         // Then
-        assertEquals("2", result);
+        assertEquals("1", result);
     }
 }

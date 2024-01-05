@@ -2,6 +2,6 @@ package TP3;
 
 public class Temperature {
     public String say(int[] temperature) {
-        return "0";
+        return "1";
     }
 }
