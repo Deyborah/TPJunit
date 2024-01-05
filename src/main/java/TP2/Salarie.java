@@ -14,8 +14,12 @@ public abstract class Salarie {
     }
 
 
+    public TP2.Salaire getSalaire() {
+        return Salaire;
+    }
 
-
+    public double travailler(){
 
     }
+
 }
