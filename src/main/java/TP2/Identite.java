@@ -5,9 +5,8 @@ public class Identite {
         private String prenom;
         private Adresse adresse;
 
-        public Identite(String nom, String prenom, Adresse adresse) {
+        public Identite(String nom, String prenom) {
                 this.nom = nom;
                 this.prenom = prenom;
-                this.adresse = adresse;
         }
 }

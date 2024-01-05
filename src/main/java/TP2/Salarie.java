@@ -7,8 +7,12 @@ public abstract class Salarie {
 
 
         double heuresTravaille=151.67;
-        
-        Salarie.payer(Salaire);
+
+    public Identite getIdendite()
+    {
+        return getIdendite();
+    }
+
 
 
 
