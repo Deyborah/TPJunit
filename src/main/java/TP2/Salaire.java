@@ -4,9 +4,11 @@ package TP2;
 public class Salaire {
     public double TauxHoraire= 9.22;
     public double tauxMajore=11.53;
+
     public double payer(double heuresTravaille){
         return calculSalaire(heuresTravaille);
     }
+
 
     /**
      * Calcule le salaire en fonction des heures travaillès
