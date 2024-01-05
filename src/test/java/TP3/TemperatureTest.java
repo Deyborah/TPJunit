@@ -14,4 +14,16 @@ public class TemperatureTest {
         // Then
         assertEquals("0", result);
     }
+
+
+    @Test
+    public void temperature_proche_de_0_Testant1() {
+        int[] temperature={1};
+        // Given
+        Temperature thermometre = new Temperature();
+        // When
+        String result = thermometre.say(temperature);
+        // Then
+        assertEquals("2", result);
+    }
 }
