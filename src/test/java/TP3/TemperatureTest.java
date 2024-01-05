@@ -6,10 +6,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class TemperatureTest {
     @Test
     public void temperature_proche_de_0() {
+        int[] temperature={};
         // Given
-        Temperature temperature = new Temperature();
+        Temperature thermometre = new Temperature();
         // When
-        String result = temperature.say(0);
+        String result = thermometre.say(temperature);
         // Then
         assertEquals("0", result);
     }
