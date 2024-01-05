@@ -18,8 +18,6 @@ public abstract class Salarie {
         return Salaire;
     }
 
-    public double travailler(){
 
-    }
 
 }
